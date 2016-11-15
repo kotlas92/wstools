@@ -129,7 +129,7 @@ class PreRelease(Command):
             raise RuntimeError(
                 "Current version of the package is equal or lower than the already published ones (PyPi). Increse version to be able to pass prerelease stage.")
 
-requires = ['autopep8', 'six', 'pep8', 'pytest-cov', 'pytest-pep8', 'setuptools', 'pytest', 'pytest-timeout']
+requires = ['autopep8', 'six', 'pep8', 'pytest-cov', 'pytest-pep8', 'setuptools', 'pytest-timeout', 'pytest']
 
 setup(
     name=NAME,
